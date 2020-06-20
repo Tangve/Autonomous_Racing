@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  
+
+  <!-- Begin the simulator with the parameters from params.yaml -->
+  <node pkg="team1_rrt" name="rrt_node" type="rrt_node" output="screen">
+    <rosparam command="load" file="$(find team1_rrt)/rrt_params.yaml"/>
+  </node>
+
+</launch>

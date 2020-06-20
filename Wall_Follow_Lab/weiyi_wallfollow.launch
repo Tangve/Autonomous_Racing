@@ -1,0 +1,3 @@
+<launch>
+  <node name="wall_follow" pkg="weiyi_wallfollow" type="wall_follow" output="screen" />
+</launch>
